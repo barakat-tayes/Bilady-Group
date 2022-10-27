@@ -1,0 +1,41 @@
+table {
+    border: 1px solid #222;
+}
+
+table {
+    border: 2px solid #333;
+    margin: 1rem auto;
+}
+
+table thead {
+    border: 2px solid rgb(47, 4, 4);
+    background-color: #333;
+    color: #fff;
+}
+
+table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+caption {
+    font-size: 2rem;
+    font-family: "Abril Fatface", cursive;
+    color: #a49c00;
+    margin-bottom: 2rem;
+}
+
+.cont-table {
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
